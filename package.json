@@ -1,0 +1,43 @@
+{
+  "name": "node_nosql_apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulRafey476/node_nosql_apis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdulRafey476/node_nosql_apis/issues"
+  },
+  "homepage": "https://github.com/AbdulRafey476/node_nosql_apis#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.1.2",
+    "helmet": "^3.18.0",
+    "joi": "^14.3.1",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.14",
+    "mongoose": "^5.6.2",
+    "mongoose-type-url": "^1.0.6",
+    "nodemailer": "^6.2.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.0"
+  }
+}
